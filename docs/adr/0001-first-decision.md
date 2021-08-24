@@ -32,16 +32,4 @@ Chosen option: "Combine MADR and PlantUML", because Combines the best soluctions
 ![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/matiaspakua/ADRsWorkflow/main/docs/adr/0001-diagrams/first-diagram.iuml)
 
 
-```plantuml
-actor Promoter
-actor Entrant
-
-Promoter --> (Create Event)
-Promoter -> (Attend Event)
-
-Entrant --> (Find Event)
-(Attend Event) <- Entrant
-
-(Attend Event) <.. (Create Member)  : <<include>>
-@enduml
-```
+Source: https://github.com/matiaspakua/ADRsWorkflow/blob/main/docs/adr/0001-diagrams/first-diagram.iuml
