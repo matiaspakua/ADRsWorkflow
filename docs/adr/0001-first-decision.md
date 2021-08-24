@@ -29,7 +29,7 @@ Chosen option: "Combine MADR and PlantUML", because Combines the best soluctions
 * Needs an Example Diagram
 
 ### Example Diagram:
-![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.https://github.com/matiaspakua/ADRsWorkflow/blob/main/docs/adr/0001-diagrams/first-diagram.iuml)
+![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/matiaspakua/ADRsWorkflow/main/docs/adr/0001-diagrams/first-diagram.iuml)
 
 
 ```plantuml
