@@ -27,3 +27,21 @@ Chosen option: "Combine MADR and PlantUML", because Combines the best soluctions
 ### Negative Consequences
 
 * Needs an Example Diagram
+
+### Example Diagram:
+![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/jonashackt/plantuml-markdown/master/example-uml.iuml)
+
+
+```plantuml
+actor Promoter
+actor Entrant
+
+Promoter --> (Create Event)
+Promoter -> (Attend Event)
+
+Entrant --> (Find Event)
+(Attend Event) <- Entrant
+
+(Attend Event) <.. (Create Member)  : <<include>>
+@enduml
+```
