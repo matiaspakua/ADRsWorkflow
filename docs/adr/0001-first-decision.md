@@ -1,4 +1,4 @@
-# First-Decision
+# ADR-0001 - Define ADR workflow and structure
 
 * Status: proposed
 * Date: 2021-08-24
@@ -15,9 +15,16 @@ Select the proper structure for the ADR repository.
 * MADR
 * Combine MADR and PlantUML
 
-## Decision Outcome
+## Decision Outcome / Solution Design
 
 Chosen option: "Combine MADR and PlantUML", because Combines the best soluctions.
+
+Rationale / Other Information: ...
+
+### Example Diagram:
+![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/matiaspakua/ADRsWorkflow/main/docs/adr/0001-diagrams/first-diagram.iuml)
+
+Source: https://github.com/matiaspakua/ADRsWorkflow/blob/main/docs/adr/0001-diagrams/first-diagram.iuml
 
 ### Positive Consequences
 
@@ -28,8 +35,11 @@ Chosen option: "Combine MADR and PlantUML", because Combines the best soluctions
 
 * Needs an Example Diagram
 
-### Example Diagram:
-![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/matiaspakua/ADRsWorkflow/main/docs/adr/0001-diagrams/first-diagram.iuml)
+## Quality-Attributes Analysis
+* Usability
 
+## References / Issues Associated
 
-Source: https://github.com/matiaspakua/ADRsWorkflow/blob/main/docs/adr/0001-diagrams/first-diagram.iuml
+ - JIRA-001
+ - Gitlab-1200
+ - Other-0981
